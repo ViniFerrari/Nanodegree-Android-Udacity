@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LivrariaActivity">
+
+    <item
+        android:id="@+id/inserir_livro_aleatorio"
+        android:title="@string/inserir_livro_aleatorio"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/deletar_todos_livros"
+        android:title="@string/deletar_todos_livros"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_livro" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="4dp">
+
+            <EditText
+                android:id="@+id/edit_livro_nome"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_nome_livro"
+                android:inputType="textCapWords" />
+
+
+            <EditText
+                android:id="@+id/edit_livro_editora"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_editora_livro"
+                android:inputType="textCapWords" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_autor" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="4dp">
+
+
+            <EditText
+                android:id="@+id/edit_livro_autor"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_autor_livro"
+                android:inputType="textCapWords" />
+
+            <EditText
+                android:id="@+id/edit_livro_tel_autor"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_tel_autor_livro"
+                android:inputType="number" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_quantidade" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="4dp">
+
+            <Button
+                android:id="@+id/dec_quantity"
+                android:layout_width="@dimen/button_width_height"
+                android:layout_height="@dimen/button_width_height"
+                android:layout_marginLeft="25dp"
+                android:layout_weight="0"
+                android:backgroundTint="@color/buttonColor"
+                android:onClick="decrement"
+                android:text="@string/decreasing_button" />
+
+            <EditText
+                android:id="@+id/edit_livro_quantidade"
+                style="@style/EditorFieldStyle"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/inc_quantity"
+                android:layout_width="@dimen/button_width_height"
+                android:layout_height="@dimen/button_width_height"
+                android:layout_weight="0"
+                android:backgroundTint="@color/buttonColor"
+                android:onClick="increment"
+                android:text="@string/increasing_button" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:text="@string/category_preco" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:paddingLeft="4dp">
+
+            <EditText
+                android:id="@+id/edit_livro_preco"
+                style="@style/EditorFieldStyle"
+                android:hint="@string/hint_preco_livro"
+                android:inputType="number" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/btn_contato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/buttonColor"
+        android:onClick="intentContatoAutor"
+        android:text="@string/btn_contato" />
+
+</LinearLayout>

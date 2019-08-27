@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="app_name">Livraria</string>
+
+    <string name="deletar_todos_livros">Deletar Todos Livros</string>
+    <string name="action_delete">Deletar</string>
+    <string name="delete">Deletar</string>
+    <string name="editor_delete_livro_successful">Livro Deletado</string>
+    <string name="editor_delete_livro_failed">Erro ao deletar Livro</string>
+    <string name="delete_dialog_msg">Delete esse Livro?</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="unknown_autor">Autor Desconhecido</string>
+
+    <string name="empty_view_title_text">Estante Vazia...</string>
+    <string name="empty_view_subtitle_text">Adicione livros nela!</string>
+
+    <string name="inserir_livro_aleatorio">Inserir Livro Aleatório</string>
+    <string name="editor_activity_title">Add Livro</string>
+    <string name="action_save">Salvar</string>
+    <string name="editor_insert_livro_successful">Livro salvo</string>
+    <string name="editor_insert_livro_failed">Erro ao salvar Livro</string>
+
+    <string name="editor_activity_title_edit_livro">Editar Livro</string>
+    <string name="editor_update_livro_successful">Livro atualizado</string>
+    <string name="editor_update_livro_failed">Erro ao atualizar Livro</string>
+    <string name="unsaved_changes_dialog_msg">Descartar mudanças e sair?</string>
+    <string name="discard">Descatar</string>
+    <string name="keep_editing">Continuar editando</string>
+    <string name="editor_activity_missing_fields">Voçe deixou campos em branco. Tente Novamente!</string>
+
+    <string name="category_livro">Livro</string>
+    <string name="category_autor">Autor</string>
+    <string name="category_quantidade">Quantidade</string>
+    <string name="category_preco">Preço</string>
+
+    <string name="hint_nome_livro">Nome</string>
+    <string name="hint_editora_livro">Editora</string>
+    <string name="hint_autor_livro">Autor</string>
+    <string name="hint_tel_autor_livro">Telefone do Autor</string>
+    <string name="hint_preco_livro">R$</string>
+
+    <string name="btn_comprar">Comprar</string>
+
+    <string name="livro"> Livro</string>
+    <string name="livros"> Livros</string>
+    <string name="quantidade_zerada">Não temos mais esse livro</string>
+    <string name="failed_to_update">Falha ao atualizar</string>
+
+    <string name="decreasing_button">-</string>
+    <string name="increasing_button">+</string>
+    <string name="btn_contato">Entrar em contato com o Autor</string>
+
+    <string name="negative_values_are_not_accepted">Negative values are not accepted</string>
+
+
+</resources>
